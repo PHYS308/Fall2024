@@ -1,0 +1,173 @@
+---
+title: "Syllabus"
+format: 
+  html:
+    toc: true
+    link-external-newwindow: true
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+    self-contained: true
+editor: source
+jupyter: python3
+---
+
+## Classroom expectations {#classexpectations}
+
+::: panel-tabset
+### What you can expect from Casey and Manbir
+
+-   We will stay home if we are feeling sick and make arrangements to deliver the course material
+-   We will work with you to arrange accommodations when you need them
+-   We will respect your time by starting and ending class on time
+-   We will answer your questions thoughtfully, and if we don't know the answer, we will follow up in a timely manner
+-   We will embrace who you are as whole people
+-   We will model respect, openness, and engagement, and foster a supportive and inclusive environment
+-   We will be honest when we make mistakes, because failure is part of growing
+
+### What Casey and Manbir expect from you
+
+-   That you will stay home if you are sick and contact us via email to arrange accommodations
+-   That you genuinely attempt to engage with the course
+-   That you ask questions if you are confused (you may do this privately -- there is no obligation to ask during class hours)
+-   That you communicate with us when you have problems that interfere with your ability to engage with the coursework
+-   That you treat your peers with respect and openness, and that you participate in creating an inclusive, supportive, and engaged classroom
+
+### What is not expected
+-   Perfection. Ever. It's a myth.
+-   That you will 'sit still' or ask for permission to leave the classroom to go to the bathroom or if you just need a minute.
+-   That everyone will learn in the same way. You do not have to match some "model student" to do well in this class
+:::
+
+## Assignments and Grading {#assignments}
+
+Assignments fall into "bundles," which each make up a percent of the grade. Each assignment within a bundle is equally weighted, and individual assignments will all be graded with a rubric that includes the learning objectives, so that you can see very clearly what you missed.
+
+### Letter grade table {#lettergrades}
+
+Grades will be determined from percentages using the following table:
+
+| Letter grade | Percent range    |
+|--------------|------------------|
+| A            | 92.5 ≤ x ≤ 100   |
+| A-           | 90 ≤ x \< 92.5   |
+| B+           | 87.5 ≤ x \< 90   |
+| B            | 82.5 ≤ x \< 87.5 |
+| B-           | 80 ≤ x \< 82.5   |
+| C+           | 77.5 ≤ x \< 80   |
+| C            | 72.5 ≤ x \< 77.5 |
+| C-           | 70 ≤ x \< 72.5   |
+| D+           | 67.5 ≤ x \< 70   |
+| D            | 62.5 ≤ x \< 67.5 |
+| D-           | 60 ≤ x \< 62.5   |
+| F            | 0 ≤ x \< 60      |
+
+: Letter grades {.striped .hover}
+
+### Grading bundles
+
+::: panel-tabset
+#### Growth Mindset (10%)
+
+An important element of being a scientist is seeing opportunities to improve from mistakes and failures. This is emphasized in this class in multiple ways, through homework and test re-dos as well as through the goal-setting assignment, which spans the entire semester. Please note that some of the deadlines are more rigid in this bundle in order to make it a useful activity.
+
+-   Course pre-test (1 hr, graded on completion, not content)
+-   Course post-test (1 hr, graded on completion, not content)
+-   Math Assessment (with two chances to re-take)
+-   Growth Mindset Reflection
+-   SMART goal setting
+-   SMART goal mid-semester check-in
+-   SMART goal final reflection
+
+Given the purpose of these activities, we will not offer extensions beyond one week on the deadlines for the Growth Mindset bundle, except in case of a major medical or family emergency.
+
+#### Practice (30%)
+
+Regular problem-solving is very important to developing confidence and skill in this content, so every week you will have a short weekly problem set as well as a self-reflection form. 
+
+You will turn in the weekly problem set by scanning and uploading as a PDF to Moodle. These are due by midnight each Monday.
+
+The weekly problem set are self-graded. Here's how that works:
+
+-   You get 50% of the points just for submitting the homework on time. 
+-   When you submit your work, you will receive access to the solutions.
+-   The rest of the points come from comparing your work to the solutions and filling out a guided self-reflection form.
+-   These forms are not intended to make you do "extra work" -- these are to help both you and your instructors understand where you need more practice and more support.
+
+
+#### Labs and Lab Reports (25%)
+
+Lab activities will be integrated into many classes, and completing the labs is an important part of your learning in the course, so you may not use another student's data for your homework problem or lab report. If you are unable to attend a class you may contact the instructor (in advance if possible) about finding a time to make up the lab work.
+
+We will do a number of labs, but just two of them will include a report. These reports are more than just a short write-up of what you did. These are an exercise in synthesizing the concepts you learned in class with the activities you did in the laboratory.
+
+The lab reports must include:
+
+-   a short introductory paragraph putting into context the activity
+-   a clear statement of the question you were trying to answer with the activity
+-   an explanation of the methods you used (what did you measure, how did you do it, how did you account for error, etc)
+-   a visualization of your results (using plots and figures)
+-   a discussion of what your results mean.
+
+These reports are graded using [this rubric](pdfs/PHY 117 Lab_Report_Grading_Rubric.pdf).
+
+Note: We don't ever expect you to have perfect data, so use the discussion as an opportunity to explain the problems that arose and what you might have done differently if you'd had more time.
+
+You may revise and resubmit each lab report one time.
+
+#### Jigsaw (25%)
+
+There will be three jigsaw activities during the semester, **but you can drop your grade on one of them**. In these activities, you will be given a challenging problem to solve in small groups. Together your group must write up a "lesson plan" that demonstrates how to approach and solve that problem. In the next class period, your group will teach that problem to the class, and then everyone individually must write up a second solution: you may pick any of the problems taught by another group.
+
+To get credit for these jigsaws, you must:
+
+-   participate in both days of activity
+-   submit your "lesson plan" write-up for the question you were assigned
+-   submit a second write-up for **one** of the problems you learned on the second day
+
+These jigsaws are graded using [this rubric](pdfs/PHY 117 Jigsaw_Grading_Rubric.pdf).
+
+You may revise and resubmit each jigsaw write-up one time.
+
+#### The Problem Project (10%)
+
+The student becomes the teacher... your final project for this class is to write a physics problem similar to the jigsaw problems. You must:
+
+-   select at least one key idea from three of the five different [groups](coursecontent.qmd#keyideas)
+-   write a physics problem that tests understanding those three key ideas
+-   write up a detailed solution to that problem using the [four-step problem solving method](coursecontent.qmd#fourstepmethod)
+-   explain how your problem tests understanding for the three key ideas you selected
+
+This will be graded using [this rubric](pdfs/PHY 117 Problem_Project_Grading_Rubric.pdf).
+
+**Because this is due on the last day of class, there will not be an opportunity to revise and resubmit this**
+
+#### Extra Credit: Cornell Notes
+
+A good note-taking process can really help, not just with organization, but also with building the habit of reviewing critically the content of the past week. As extra credit, you can turn in weekly Cornell Notes. 
+
+-   This will include one initial assignment to demonstrate how to do Cornell Notes
+-   You turn in a picture or scan of these in Moodle
+-   To learn more about Cornell Notes, there is a detailed walkthrough in the [FAQ](faq.qmd#cornellnotes)
+-   Cornell Notes assignments are graded with a [rubric](pdfs/PHY 117 Cornell_Notes_Grading_Rubric.pdf)
+
+For every four Cornell Notes assignments that you receive a "Satisfactory" or "Excellent" grade on (see rubric), we will round your grade up. So if you have a B and turn in four "Satisfactory" or "Excellent" Cornell Notes, your grade will become a B+.  If you have eight "Satisfactory" or "Excellent" Cornell Notes, your grade will become an A-, etc.
+
+**The initial Cornell Notes assignment, while it contains three parts, is graded as one Cornell Notes, not three.**
+
+:::
+
+## Deadlines and Extensions {#deadlines}
+If you need an extension, you may request one using [this form](https://forms.gle/qTLy66bkUNZ5ibTj7). We recognize that things come up and you may require some flexibility at some point in the semester. Please feel free to reach out to your instructor if you are struggling to meet a deadline. We want to support you and make sure you have the best possible chance for success in this class!
+
+In general, we are happy to be flexible. Please note, however, that some assignments will have harder deadlines. These assignments include the first Cornell Notes assignment, the math assessment, and all the Growth Mindset assignments. The reason for these hard deadlines is due to the nature of the assignments -- for example, it is not helpful for you to put off taking the math assessment and discover in the last week of class that you really should review trig. 
+
+You can see which assignments have deadline restrictions by looking at the [grading template](https://docs.google.com/spreadsheets/d/1o43gE7XIsHia5bAcqoeek3scpJ-EyI1tOqB7SRFVZX0/edit?usp=sharing).
+
+
+## PHY 115 {#phy115}
+There is an additional 1-credit course that you can take alongside PHY 117. This is called PHY 115 Quantitative Approaches to Physics.
+
+This course is designed to give you extra practice connecting the math skills to the scientific concepts through individual and group work in a small class setting. Students are recommended for this course on the basis of the math assessment you take in the first week, but if you feel you would benefit from this course, please speak with your instructor. Instructor permission is needed to enroll in PHY 115.
+

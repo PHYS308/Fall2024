@@ -1,0 +1,88 @@
+---
+title: "FAQ"
+format: 
+  html:
+    toc: true
+    link-external-newwindow: true
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+    self-contained: true
+editor: source
+jupyter: python3
+---
+## When and where is class?
+
+-   When: 
+-   Where: 
+
+
+## Where do I get my textbook?
+
+
+
+## When are your office hours? {#officehours}
+
+Office hours:
+
+-   
+
+## Where do I find assignment instructions/course handouts/slides? {#findstuff}
+
+I created this website to make the syllabus and basic questions about the course easy, but not everything will be here. Handouts, in-class activities, specific assignments, and class slides and/or recordings will all be in the course page on Lyceum. The links to schedule meetings me in calendly will also be there, due to privacy considerations (this website is open to the public).
+
+If you are enrolled in the class but do not have access to Lyceum, please let me know immediately so I can add you.
+
+## When is \_\_ due? {#duedates}
+
+You can find all due dates on the [course schedule](https://docs.google.com/spreadsheets/d/12bIFUWPCjQ1M-Uhela3GO7mmHF07_UZhAoRJAUmq4t4/edit?usp=sharing). Dates are subject to change, but will always be kept up to date on the schedule so check back if you're not sure.
+
+## Can I have an extension? {#extensionpolicy}
+
+In general, I am happy to work with you on deadlines, but it's important for you to communicate with me. You can request extensions using [this form](). 
+
+Please note that the 48 hour extension is automatically granted, while anything longer than that requires that we have a conversation. That conversation starts by you proposing a new deadline in the form, and then I can talk to you about what's possible or reasonable given the course schedule, your circumstances, and other factors that may vary as the semester progresses.
+
+For more on my deadlines and extension policy, see the [syllabus](syllabus.qmd#deadlines).
+
+## Can I revise and resubmit something I did poorly on? {#revisionpolicy}
+
+For some things, yes. Some assignments cannot be revised or retaken because of the nature of the assignment or when it is due. More information for each assignment can be found on this [template grade sheet]().
+
+## When will you reply to my email? {#emails}
+
+Timely communication is really important, but in order to be an effective instructor, I also need to be able to take breaks from email.
+
+If you email me on a weekday, you can expect a response from me within 24 hours. If you email me on a weekend, you can expect a response from me by class time on Monday (or the first day back if it's a long weekend or holiday).
+
+
+## Do you grade on a curve? {#gradingcurve}
+
+Grades are not curved; your grade depends only on your own performance, supporting your fellow students will help every one of you.
+
+Your grades can be calculated using our [template grading sheet](), and letter grades are determined from percentages using [this chart](syllabus.qmd#lettergrades)
+
+
+## Can I use ChatGPT in this class? {#ChatGPT}
+
+Large Language Models (LLMs) are likely here to stay. Banning them from the classroom is both pointless and actively unhelpful. If you are going to use ChatGPT or a similar LLM in this class, I only require two things:
+
+1.    That you do a little reading on Large Language Models. Specifically, read [this article about how LLMs actually work](https://stackoverflow.blog/2023/07/03/do-large-language-models-know-what-they-are-talking-about/) and [this article about the ethical considerations around LLMs](https://montrealethics.ai/what-lies-behind-agi-ethical-concerns-related-to-llms/)
+
+2.    That you consider ChatGPT a source that you must cite. If you use ChatGPT or another LLM to help with any assignment, you **must** acknowledge that help and give a short (one-sentence) description of what the LLM did for you and how it helped you solve the problem.
+
+Remember that LLMs are designed to predict the most probable response to a question, which is not always the best or even correct response. They are prone to "hallucinating" (making stuff up, often in a way that is convincing but still false). They can't do creative problem solving, which is the most important skill we are teaching in this class.
+
+
+## What should I do if I get behind on my work? {#catchingup}
+
+First, reach out to me. It helps me to know that you are working on catching up. I am also happy to meet and help you set adjusted deadlines to get back on track.
+
+Second, if you are feeling really overwhelmed, consider scheduling an appointment with [a learning strategies tutor](https://www.bates.edu/student-academic-support-center/learning-strategies/) at the Student Academic Support Center. Their role is to support students seeking help with time management, organization, reading, test-taking, note-taking, and other academic skills. They can help you talk through what strategies work for you, what strategies don't, and how to manage your time and energy in a more sustainable way.
+
+## I have academic accommodations. What should I do? {#accommodations}
+
+I have tried to bring the concept of [universal design](https://www.washington.edu/doit/what-universal-design-0) into how I have planned and structured this course, so I hope that any accommodations you have are already built into this course. However, I don't expect to have done this perfectly (as there is no such thing), so if you have need of certain accommodations that are not already provided by this class, please let me know and I will do my best to meet those needs.
+
+## What if I need more support in this class? {#extrahelp}
