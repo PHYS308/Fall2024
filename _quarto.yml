@@ -18,7 +18,6 @@ website:
         text: "Schedule" 
         target: _blank #makes it open in new page
       - sidebar:syllabus
-      - sidebar:coursecontent
             
   sidebar:
     - id: syllabus
