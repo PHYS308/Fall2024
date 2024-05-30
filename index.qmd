@@ -31,10 +31,25 @@ You can see the PHYS 308 course description [here](https://phys308.github.io/).
 
 By the end of this course, you will be able to
 
--   
+-   Relate the concepts of quantum mechanics to the mathematics through Dirac notation
+-   Understand the behavior of quantum particles under the influence of different types of potentials
+-   Calculate measurements of properties like spin and energy
+-   Translate between different basis states
+-   Understand the mathematical basis for quantum paradoxes like Schrödinger's cat and the Einstein-Podolsky-Rosen Paradox
 
 ## Course Topics
 
 This course covers the following content:
 
--   
+-   Dirac Notation
+-   The postulates of Quantum Mechanics
+-   Quantum states, operators, and measurements
+-   Hermitian operators and commutation
+-   The Uncertainty Principle
+-   Spin operators
+-   The Schrödinger Equation
+-   Time-evolutiom
+-   Quantum paradoxes
+-   Quantum wells
+-   Wave packets and free particles
+

@@ -165,13 +165,13 @@
     "href": "index.html#course-objectives",
     "title": "PHY 308 Fall 2024",
     "section": "Course Objectives",
-    "text": "Course Objectives\nBy the end of this course, you will be able to"
+    "text": "Course Objectives\nBy the end of this course, you will be able to\n\nRelate the concepts of quantum mechanics to the mathematics through Dirac notation\nUnderstand the behavior of quantum particles under the influence of different types of potentials\nCalculate measurements of properties like spin and energy\nTranslate between different basis states\nUnderstand the mathematical basis for quantum paradoxes like Schrödinger’s cat and the Einstein-Podolsky-Rosen Paradox"
   },
   {
     "objectID": "index.html#course-topics",
     "href": "index.html#course-topics",
     "title": "PHY 308 Fall 2024",
     "section": "Course Topics",
-    "text": "Course Topics\nThis course covers the following content:"
+    "text": "Course Topics\nThis course covers the following content:\n\nDirac Notation\nThe postulates of Quantum Mechanics\nQuantum states, operators, and measurements\nHermitian operators and commutation\nThe Uncertainty Principle\nSpin operators\nThe Schrödinger Equation\nTime-evolutiom\nQuantum paradoxes\nQuantum wells\nWave packets and free particles"
   }
 ]
