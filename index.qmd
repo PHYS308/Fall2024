@@ -4,7 +4,6 @@ format:
   html:
     link-external-newwindow: true
 editor: source
-jupyter: python3
 ---
 
 Welcome to the Fall 2024 class of PHYS 308!
@@ -21,7 +20,9 @@ If you want to know more about the status of Indigenous groups here in Maine, ch
 
 # About this course
 
-If this is your first time on the course website, I recommend you [**start here**](starthere.qmd)
+If this is your first time on the course website, I recommend you
+
+<a target="_blank" class="btn-garnet" href=starthere.qmd>Start Here</a>
 
 ## Course Description
 
@@ -52,4 +53,3 @@ This course covers the following content:
 -   Quantum paradoxes
 -   Quantum wells
 -   Wave packets and free particles
-

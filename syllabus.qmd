@@ -10,28 +10,27 @@ format:
     colorlinks: true
     self-contained: true
 editor: source
-jupyter: python3
 ---
 
 ## Classroom expectations {#classexpectations}
 
 ::: panel-tabset
-### What you can expect from Casey and Manbir
+### What you can expect from me
 
--   We will stay home if we are feeling sick and make arrangements to deliver the course material
--   We will work with you to arrange accommodations when you need them
--   We will respect your time by starting and ending class on time
--   We will answer your questions thoughtfully, and if we don't know the answer, we will follow up in a timely manner
--   We will embrace who you are as whole people
--   We will model respect, openness, and engagement, and foster a supportive and inclusive environment
--   We will be honest when we make mistakes, because failure is part of growing
+-   I will stay home if I am feeling sick and make arrangements to deliver the course material
+-   I will work with you to arrange accommodations when you need them
+-   I will respect your time by starting and ending class on time
+-   I will answer your questions thoughtfully, and if I don't know the answer, I will follow up in a timely manner
+-   I will embrace who you are as whole people
+-   I will model respect, openness, and engagement, and foster a supportive and inclusive environment
+-   I will be honest when I make mistakes, because failure is part of growing
 
-### What Casey and Manbir expect from you
+### What I expect from you
 
--   That you will stay home if you are sick and contact us via email to arrange accommodations
+-   That you will stay home if you are sick and contact me via email to arrange accommodations
 -   That you genuinely attempt to engage with the course
 -   That you ask questions if you are confused (you may do this privately -- there is no obligation to ask during class hours)
--   That you communicate with us when you have problems that interfere with your ability to engage with the coursework
+-   That you communicate with me when you have problems that interfere with your ability to engage with the coursework
 -   That you treat your peers with respect and openness, and that you participate in creating an inclusive, supportive, and engaged classroom
 
 ### What is not expected
@@ -42,132 +41,139 @@ jupyter: python3
 
 ## Assignments and Grading {#assignments}
 
-Assignments fall into "bundles," which each make up a percent of the grade. Each assignment within a bundle is equally weighted, and individual assignments will all be graded with a rubric that includes the learning objectives, so that you can see very clearly what you missed.
+Assignments fall into "bundles," which contribute to your grade in specific ways. Your performance on each bundle determines your rough letter grade (full letters). Beyond that, you can achieve grade boosts, which round your grade up, e.g. from a B to a B+, or a B+ to an A-.
 
-### Letter grade table {#lettergrades}
+You can learn more about each bundle below:
 
-Grades will be determined from percentages using the following table:
+[Reading Quizzes](#reading)
 
-| Letter grade | Percent range    |
-|--------------|------------------|
-| A            | 92.5 ≤ x ≤ 100   |
-| A-           | 90 ≤ x \< 92.5   |
-| B+           | 87.5 ≤ x \< 90   |
-| B            | 82.5 ≤ x \< 87.5 |
-| B-           | 80 ≤ x \< 82.5   |
-| C+           | 77.5 ≤ x \< 80   |
-| C            | 72.5 ≤ x \< 77.5 |
-| C-           | 70 ≤ x \< 72.5   |
-| D+           | 67.5 ≤ x \< 70   |
-| D            | 62.5 ≤ x \< 67.5 |
-| D-           | 60 ≤ x \< 62.5   |
-| F            | 0 ≤ x \< 60      |
+[Unit Problems](#practice)
+
+[Final Portfolio](#portfolio)
+
+[Tests](#tests)
+
+[Presentations](#presentations)
+
+
+### Grading Scheme {#gradingscheme}
+
+### Table of letter grades
+
+| Letter grade | Reading Quizzes          | Unit Problems               | Final Portfolio                         | Midterm and Final | Presentation
+|--------------|--------------------------| ----------------------------|-----------------------------------------|-------------------| ----------------------|
+| D            | Earn 70% of the points   | Complete 5 of 15 problems   | Pass 3 of 5 problems                    | Optional          | Optional (replaces a grade item)
+| C            | Earn 70% of the points   | Complete 8 of 15 problems   | Pass 4 of 5 problems                    | Attempt one       | Optional (replaces a grade item)
+| B            | Earn 70% of the points   | Complete 12 of 15 problems  | Pass all 5 problems                     | Pass one          | Must attempt 1 (replaces a grade item)
+| A            | Earn 70% of the points   | Complete all 15 problems    | Pass all 5 problems, plus at least 1 E  | Pass both         | Must attempt 1 (replaces a grade item)
 
 : Letter grades {.striped .hover}
+
+
+### Bundle visualization 
+
+![](images/PHYS308_GradingBundles.png)
+
+### Grading scales
+::: panel-tabset
+#### Points
+Reading quizzes will be graded on a points scale: each quiz has 10 problems and each is worth 1 point.
+
+#### Completion
+
+The portfolio problems for each unit will be graded on completion. You will be able to see the solutions and self-assess your work, but I will look to ensure that a sincere attempt was made on each problem.  
+
+#### E/M/U/N {#emun}
+The individual final portfolio problems, presentations, and the midterm and final will be graded on the following scale:
+
+- E: excellent -- this is a thorough and correct response that demonstrates excellent understanding of the concepts and makes proper use of the mathematical skills expected in this class.
+- M: meets expectations -- this is a response that demonstrates solid understanding of the concepts but perhaps includes some small mathematical errors or minor conceptual mistakes.
+- U: unsatisfactory / does not meet expectations -- this is an answer that applies the concepts incorrectly, misunderstands the point of the question, does not complete the question, fails to follow instructions, and/or contains significant mathematical errors
+- N: no submission -- if you turn nothing in, you will receive an N.
+
+E and M are considered passing grades. To get an A or B in this class, you must achieve some Es (see the [grading scheme](#gradingscheme))
+
+U and N are considered failing grades.
+
+
+:::
+
 
 ### Grading bundles
 
 ::: panel-tabset
-#### Growth Mindset (10%)
+#### Reading Quizzes {#reading}
 
-An important element of being a scientist is seeing opportunities to improve from mistakes and failures. This is emphasized in this class in multiple ways, through homework and test re-dos as well as through the goal-setting assignment, which spans the entire semester. Please note that some of the deadlines are more rigid in this bundle in order to make it a useful activity.
+In order to get the most out of class, you need to prepare. We will spend most of our time in class practicing problem solving, and before class you will need to read the appropriate sections of the book and respond to a quiz. Some readings are longer than others (and I've included the page count in the [course schedule](https://docs.google.com/spreadsheets/d/12bIFUWPCjQ1M-Uhela3GO7mmHF07_UZhAoRJAUmq4t4/edit?usp=sharing) so you can be prepared), but every reading quiz is 10 questions.
 
--   Course pre-test (1 hr, graded on completion, not content)
--   Course post-test (1 hr, graded on completion, not content)
--   Math Assessment (with two chances to re-take)
--   Growth Mindset Reflection
--   SMART goal setting
--   SMART goal mid-semester check-in
--   SMART goal final reflection
+Given the purpose of the reading quizzes, I will not offer extensions, except in case of a major medical or family emergency that causes you to miss class.
 
-Given the purpose of these activities, we will not offer extensions beyond one week on the deadlines for the Growth Mindset bundle, except in case of a major medical or family emergency.
+#### Unit Problems {#practice}
 
-#### Practice (30%)
+Each unit (except for the unit on quantum weirdness) will have three problems similar to what we work on in class, but larger in scope and/or difficulty. These problems will be due shortly after the unit is over, and will be graded on completion. These problems create the foundation of 
 
-Regular problem-solving is very important to developing confidence and skill in this content, so every week you will have a short weekly problem set as well as a self-reflection form. 
+You may work with classmates on these problems, but please be sure to give credit, which means naming each person you worked with and describing in a sentence or two the contribution they made.
 
-You will turn in the weekly problem set by scanning and uploading as a PDF to Moodle. These are due by midnight each Monday.
-
-The weekly problem set are self-graded. Here's how that works:
-
--   You get 50% of the points just for submitting the homework on time. 
--   When you submit your work, you will receive access to the solutions.
--   The rest of the points come from comparing your work to the solutions and filling out a guided self-reflection form.
--   These forms are not intended to make you do "extra work" -- these are to help both you and your instructors understand where you need more practice and more support.
+You may request extensions on the unit problems using the [extension form](https://forms.gle/eFx7y7FoSdoukKGC6).
 
 
-#### Labs and Lab Reports (25%)
+#### Final Portfolio {#portfolio}
 
-Lab activities will be integrated into many classes, and completing the labs is an important part of your learning in the course, so you may not use another student's data for your homework problem or lab report. If you are unable to attend a class you may contact the instructor (in advance if possible) about finding a time to make up the lab work.
+The idea for this final portfolio assignment is to demonstrate what you have learned in the course and to create something for which you can take ownership and feel proud. We will get a lot of practice with problem solving this semester, and this is a chance to go back and curate some of what you have done. 
 
-We will do a number of labs, but just two of them will include a report. These reports are more than just a short write-up of what you did. These are an exercise in synthesizing the concepts you learned in class with the activities you did in the laboratory.
+The intended audience is a fellow student who had not previously seen the unit questions you have chosen, but is curious to know how to solve them. For example, you could imagine yourself at the beginning of the semester, or a classmate earlier this semester who was unsure how to approach a problem. Would that intended audience be able to understand your approach and your logic? Would they feel empowered to learn based on what you have created for them?
 
-The lab reports must include:
+The intended audience for this reflection portion of the assignment is your future self (perhaps a year from now). How could you help that future version of yourself understand what your learning process was like this semester? 
 
--   a short introductory paragraph putting into context the activity
--   a clear statement of the question you were trying to answer with the activity
--   an explanation of the methods you used (what did you measure, how did you do it, how did you account for error, etc)
--   a visualization of your results (using plots and figures)
--   a discussion of what your results mean.
+The assignment will involve redoing 5 problems (one from each unit) in a manner that clearly presents the logic and reasoning behind your answers. It will be useful to restate the problem in your own words, clearly identifying known and unknown quantities. You will then want to describe and demonstrate your approach to solving the problem. Once you arrive at an answer, it will also be helpful to reflect on the implications of that answer. This could include a consideration of how the answer depends on certain variables, or how the answer might be different for a slightly different situation.
 
-These reports are graded using [this rubric](pdfs/PHY 117 Lab_Report_Grading_Rubric.pdf).
+Each problem is graded on an [E/M/U/N scale](#emun), and an E and M are both considered passing grades.
 
-Note: We don't ever expect you to have perfect data, so use the discussion as an opportunity to explain the problems that arose and what you might have done differently if you'd had more time.
+You may request an extension on the final portfolio using the [extension form](https://forms.gle/eFx7y7FoSdoukKGC6). Please note, however, that deadline cannot be extended beyond the end of final exam period.
 
-You may revise and resubmit each lab report one time.
+#### Tests {#tests}
 
-#### Jigsaw (25%)
+There will be one midterm and one final, which will be given during the scheduled final exam time.
 
-There will be three jigsaw activities during the semester, **but you can drop your grade on one of them**. In these activities, you will be given a challenging problem to solve in small groups. Together your group must write up a "lesson plan" that demonstrates how to approach and solve that problem. In the next class period, your group will teach that problem to the class, and then everyone individually must write up a second solution: you may pick any of the problems taught by another group.
+These are graded on an [E/M/U/N scale](#emun),
 
-To get credit for these jigsaws, you must:
+#### Presentations {#presentations}
 
--   participate in both days of activity
--   submit your "lesson plan" write-up for the question you were assigned
--   submit a second write-up for **one** of the problems you learned on the second day
+After every unit, you will have a chance to present one of the problems to the class in a group of up to three. You will be graded on the correctness and completeness of the solution, 
 
-These jigsaws are graded using [this rubric](pdfs/PHY 117 Jigsaw_Grading_Rubric.pdf).
+These are graded on an [E/M/U/N scale](#emun), and you may use your presentation score to replace one of the following:
 
-You may revise and resubmit each jigsaw write-up one time.
+- your reading quiz score for the semester (an M or higher gives you full credit)
+- one unit worth of problems (an M or higher gives you full credit for one unit's problems)
+- one final portfolio problem
+- your midterm or final exam grade
 
-#### The Problem Project (10%)
+I will always replace the grade item that most benefits you, and will never replace a better score with a worse one. The Presentations can only help you.
 
-The student becomes the teacher... your final project for this class is to write a physics problem similar to the jigsaw problems. You must:
+Since the presentations are scheduled for specific days, you cannot request an extension.
 
--   select at least one key idea from three of the five different [groups](coursecontent.qmd#keyideas)
--   write a physics problem that tests understanding those three key ideas
--   write up a detailed solution to that problem using the [four-step problem solving method](coursecontent.qmd#fourstepmethod)
--   explain how your problem tests understanding for the three key ideas you selected
-
-This will be graded using [this rubric](pdfs/PHY 117 Problem_Project_Grading_Rubric.pdf).
-
-**Because this is due on the last day of class, there will not be an opportunity to revise and resubmit this**
-
-#### Extra Credit: Cornell Notes
-
-A good note-taking process can really help, not just with organization, but also with building the habit of reviewing critically the content of the past week. As extra credit, you can turn in weekly Cornell Notes. 
-
--   This will include one initial assignment to demonstrate how to do Cornell Notes
--   You turn in a picture or scan of these in Moodle
--   To learn more about Cornell Notes, there is a detailed walkthrough in the [FAQ](faq.qmd#cornellnotes)
--   Cornell Notes assignments are graded with a [rubric](pdfs/PHY 117 Cornell_Notes_Grading_Rubric.pdf)
-
-For every four Cornell Notes assignments that you receive a "Satisfactory" or "Excellent" grade on (see rubric), we will round your grade up. So if you have a B and turn in four "Satisfactory" or "Excellent" Cornell Notes, your grade will become a B+.  If you have eight "Satisfactory" or "Excellent" Cornell Notes, your grade will become an A-, etc.
-
-**The initial Cornell Notes assignment, while it contains three parts, is graded as one Cornell Notes, not three.**
+If you want to get a B or higher in the class, you have to at least try a presentation. Given the limitations on time, you may not be able to do more than one -- I will prioritize students who have not yet done a presentation on the sign-up sheet.
 
 :::
 
+### Grading boosts
+
+::: panel-tabset
+#### Effort Boost
+
+If you earn 85% of the reading quiz points, turn in every unit problem, turn in a complete portfolio, attempt both exams, and do a presentation, you will gain a grade round up for effort, regardless of the outcome of your work.
+
+#### Problem-Solver Boost
+
+If you earn more than one E on your final portfolio, you will get a grade round-up
+
+#### Growth Boost
+
+If you demonstrate consistent improvement in your work across the semester, I reserve the right to round your grade up.
+:::
+
 ## Deadlines and Extensions {#deadlines}
-If you need an extension, you may request one using [this form](https://forms.gle/qTLy66bkUNZ5ibTj7). We recognize that things come up and you may require some flexibility at some point in the semester. Please feel free to reach out to your instructor if you are struggling to meet a deadline. We want to support you and make sure you have the best possible chance for success in this class!
+If you need an extension, you may request one using [this form](https://forms.gle/eFx7y7FoSdoukKGC6). I recognize that things come up and you may require flexibility at some point in the semester. Please feel free to reach out to me directly if you are struggling to meet a deadline. I want to support you and make sure you have the best possible chance for success in this class, and the only way I can help is if you communicate with me.
 
-In general, we are happy to be flexible. Please note, however, that some assignments will have harder deadlines. These assignments include the first Cornell Notes assignment, the math assessment, and all the Growth Mindset assignments. The reason for these hard deadlines is due to the nature of the assignments -- for example, it is not helpful for you to put off taking the math assessment and discover in the last week of class that you really should review trig. 
-
-You can see which assignments have deadline restrictions by looking at the [grading template](https://docs.google.com/spreadsheets/d/1o43gE7XIsHia5bAcqoeek3scpJ-EyI1tOqB7SRFVZX0/edit?usp=sharing).
-
-
-## PHY 115 {#phy115}
-There is an additional 1-credit course that you can take alongside PHY 117. This is called PHY 115 Quantitative Approaches to Physics.
-
-This course is designed to give you extra practice connecting the math skills to the scientific concepts through individual and group work in a small class setting. Students are recommended for this course on the basis of the math assessment you take in the first week, but if you feel you would benefit from this course, please speak with your instructor. Instructor permission is needed to enroll in PHY 115.
+In general, I am happy to be flexible. Please note, however, that some assignments will have stricter deadlines. These assignments include the reading quizzes and the presentation, and the nature of the deadlines is discussed in their descriptions above.
 

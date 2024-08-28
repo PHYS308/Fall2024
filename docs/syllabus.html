@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.353">
+<meta name="generator" content="quarto-1.4.555">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -45,7 +45,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -54,22 +60,23 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">PHYS 308 Fall 2024</span>
     </a>
@@ -81,57 +88,57 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://phys308.github.io/" rel="" target="_blank">
- <span class="menu-text">Course Description</span></a>
+    <a class="nav-link" href="https://phys308.github.io/" target="_blank"> 
+<span class="menu-text">Course Description</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://docs.google.com/spreadsheets/d/12bIFUWPCjQ1M-Uhela3GO7mmHF07_UZhAoRJAUmq4t4/edit?usp=sharing" rel="" target="_blank">
- <span class="menu-text">Schedule</span></a>
+    <a class="nav-link" href="https://docs.google.com/spreadsheets/d/12bIFUWPCjQ1M-Uhela3GO7mmHF07_UZhAoRJAUmq4t4/edit?usp=sharing" target="_blank"> 
+<span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-syllabus-and-faq" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-syllabus-and-faq" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Syllabus and FAQ</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-syllabus-and-faq">    
         <li>
-    <a class="dropdown-item" href="./starthere.html" rel="" target="">
+    <a class="dropdown-item" href="./starthere.html">
  <span class="dropdown-text">Start Here</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./syllabus.html" rel="" target="">
+    <a class="dropdown-item" href="./syllabus.html">
  <span class="dropdown-text">Syllabus</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./FAQ.html" rel="" target="">
+    <a class="dropdown-item" href="./FAQ.html">
  <span class="dropdown-text">FAQ</span></a>
   </li>  
     </ul>
   </li>
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./syllabus.html">Syllabus</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./syllabus.html">Syllabus</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
@@ -155,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -165,11 +172,14 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#classexpectations" id="toc-classexpectations" class="nav-link active" data-scroll-target="#classexpectations">Classroom expectations</a></li>
   <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments">Assignments and Grading</a>
   <ul class="collapse">
-  <li><a href="#lettergrades" id="toc-lettergrades" class="nav-link" data-scroll-target="#lettergrades">Letter grade table</a></li>
+  <li><a href="#gradingscheme" id="toc-gradingscheme" class="nav-link" data-scroll-target="#gradingscheme">Grading Scheme</a></li>
+  <li><a href="#table-of-letter-grades" id="toc-table-of-letter-grades" class="nav-link" data-scroll-target="#table-of-letter-grades">Table of letter grades</a></li>
+  <li><a href="#bundle-visualization" id="toc-bundle-visualization" class="nav-link" data-scroll-target="#bundle-visualization">Bundle visualization</a></li>
+  <li><a href="#grading-scales" id="toc-grading-scales" class="nav-link" data-scroll-target="#grading-scales">Grading scales</a></li>
   <li><a href="#grading-bundles" id="toc-grading-bundles" class="nav-link" data-scroll-target="#grading-bundles">Grading bundles</a></li>
+  <li><a href="#grading-boosts" id="toc-grading-boosts" class="nav-link" data-scroll-target="#grading-boosts">Grading boosts</a></li>
   </ul></li>
   <li><a href="#deadlines" id="toc-deadlines" class="nav-link" data-scroll-target="#deadlines">Deadlines and Extensions</a></li>
-  <li><a href="#phy115" id="toc-phy115" class="nav-link" data-scroll-target="#phy115">PHY 115</a></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="syllabus.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
@@ -191,30 +201,32 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <section id="classexpectations" class="level2">
 <h2 class="anchored" data-anchor-id="classexpectations">Classroom expectations</h2>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">What you can expect from Casey and Manbir</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">What Casey and Manbir expect from you</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">What is not expected</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">What you can expect from me</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">What I expect from you</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">What is not expected</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <ul>
-<li>We will stay home if we are feeling sick and make arrangements to deliver the course material</li>
-<li>We will work with you to arrange accommodations when you need them</li>
-<li>We will respect your time by starting and ending class on time</li>
-<li>We will answer your questions thoughtfully, and if we don’t know the answer, we will follow up in a timely manner</li>
-<li>We will embrace who you are as whole people</li>
-<li>We will model respect, openness, and engagement, and foster a supportive and inclusive environment</li>
-<li>We will be honest when we make mistakes, because failure is part of growing</li>
+<li>I will stay home if I am feeling sick and make arrangements to deliver the course material</li>
+<li>I will work with you to arrange accommodations when you need them</li>
+<li>I will respect your time by starting and ending class on time</li>
+<li>I will answer your questions thoughtfully, and if I don’t know the answer, I will follow up in a timely manner</li>
+<li>I will embrace who you are as whole people</li>
+<li>I will model respect, openness, and engagement, and foster a supportive and inclusive environment</li>
+<li>I will be honest when I make mistakes, because failure is part of growing</li>
 </ul>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <ul>
-<li>That you will stay home if you are sick and contact us via email to arrange accommodations</li>
+<li>That you will stay home if you are sick and contact me via email to arrange accommodations</li>
 <li>That you genuinely attempt to engage with the course</li>
 <li>That you ask questions if you are confused (you may do this privately – there is no obligation to ask during class hours)</li>
-<li>That you communicate with us when you have problems that interfere with your ability to engage with the coursework</li>
+<li>That you communicate with me when you have problems that interfere with your ability to engage with the coursework</li>
 <li>That you treat your peers with respect and openness, and that you participate in creating an inclusive, supportive, and engaged classroom</li>
 </ul>
 </div>
@@ -230,146 +242,158 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="assignments" class="level2">
 <h2 class="anchored" data-anchor-id="assignments">Assignments and Grading</h2>
-<p>Assignments fall into “bundles,” which each make up a percent of the grade. Each assignment within a bundle is equally weighted, and individual assignments will all be graded with a rubric that includes the learning objectives, so that you can see very clearly what you missed.</p>
-<section id="lettergrades" class="level3">
-<h3 class="anchored" data-anchor-id="lettergrades">Letter grade table</h3>
-<p>Grades will be determined from percentages using the following table:</p>
-<table class="table-striped table-hover table">
+<p>Assignments fall into “bundles,” which contribute to your grade in specific ways. Your performance on each bundle determines your rough letter grade (full letters). Beyond that, you can achieve grade boosts, which round your grade up, e.g.&nbsp;from a B to a B+, or a B+ to an A-.</p>
+<p>You can learn more about each bundle below:</p>
+<p><a href="#reading">Reading Quizzes</a></p>
+<p><a href="#practice">Unit Problems</a></p>
+<p><a href="#portfolio">Final Portfolio</a></p>
+<p><a href="#tests">Tests</a></p>
+<p><a href="#presentations">Presentations</a></p>
+<section id="gradingscheme" class="level3">
+<h3 class="anchored" data-anchor-id="gradingscheme">Grading Scheme</h3>
+</section>
+<section id="table-of-letter-grades" class="level3">
+<h3 class="anchored" data-anchor-id="table-of-letter-grades">Table of letter grades</h3>
+<table class="table-striped table-hover caption-top table">
 <caption>Letter grades</caption>
+<colgroup>
+<col style="width: 9%">
+<col style="width: 17%">
+<col style="width: 18%">
+<col style="width: 27%">
+<col style="width: 12%">
+<col style="width: 14%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Letter grade</th>
-<th>Percent range</th>
+<th>Reading Quizzes</th>
+<th>Unit Problems</th>
+<th>Final Portfolio</th>
+<th>Midterm and Final</th>
+<th>Presentation</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>A</td>
-<td>92.5 ≤ x ≤ 100</td>
-</tr>
-<tr class="even">
-<td>A-</td>
-<td>90 ≤ x &lt; 92.5</td>
-</tr>
-<tr class="odd">
-<td>B+</td>
-<td>87.5 ≤ x &lt; 90</td>
-</tr>
-<tr class="even">
-<td>B</td>
-<td>82.5 ≤ x &lt; 87.5</td>
-</tr>
-<tr class="odd">
-<td>B-</td>
-<td>80 ≤ x &lt; 82.5</td>
-</tr>
-<tr class="even">
-<td>C+</td>
-<td>77.5 ≤ x &lt; 80</td>
-</tr>
-<tr class="odd">
-<td>C</td>
-<td>72.5 ≤ x &lt; 77.5</td>
-</tr>
-<tr class="even">
-<td>C-</td>
-<td>70 ≤ x &lt; 72.5</td>
-</tr>
-<tr class="odd">
-<td>D+</td>
-<td>67.5 ≤ x &lt; 70</td>
-</tr>
-<tr class="even">
 <td>D</td>
-<td>62.5 ≤ x &lt; 67.5</td>
-</tr>
-<tr class="odd">
-<td>D-</td>
-<td>60 ≤ x &lt; 62.5</td>
+<td>Earn 70% of the points</td>
+<td>Complete 5 of 15 problems</td>
+<td>Pass 3 of 5 problems</td>
+<td>Optional</td>
+<td>Optional (replaces a grade item)</td>
 </tr>
 <tr class="even">
-<td>F</td>
-<td>0 ≤ x &lt; 60</td>
+<td>C</td>
+<td>Earn 70% of the points</td>
+<td>Complete 8 of 15 problems</td>
+<td>Pass 4 of 5 problems</td>
+<td>Attempt one</td>
+<td>Optional (replaces a grade item)</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>Earn 70% of the points</td>
+<td>Complete 12 of 15 problems</td>
+<td>Pass all 5 problems</td>
+<td>Pass one</td>
+<td>Must attempt 1 (replaces a grade item)</td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>Earn 70% of the points</td>
+<td>Complete all 15 problems</td>
+<td>Pass all 5 problems, plus at least 1 E</td>
+<td>Pass both</td>
+<td>Must attempt 1 (replaces a grade item)</td>
 </tr>
 </tbody>
 </table>
 </section>
+<section id="bundle-visualization" class="level3">
+<h3 class="anchored" data-anchor-id="bundle-visualization">Bundle visualization</h3>
+<p><img src="images/PHYS308_GradingBundles.png" class="img-fluid"></p>
+</section>
+<section id="grading-scales" class="level3">
+<h3 class="anchored" data-anchor-id="grading-scales">Grading scales</h3>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Points</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Completion</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">E/M/U/N</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<p>Reading quizzes will be graded on a points scale: each quiz has 10 problems and each is worth 1 point.</p>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<p>The portfolio problems for each unit will be graded on completion. You will be able to see the solutions and self-assess your work, but I will look to ensure that a sincere attempt was made on each problem.</p>
+</div>
+<div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
+<p>The individual final portfolio problems, presentations, and the midterm and final will be graded on the following scale:</p>
+<ul>
+<li>E: excellent – this is a thorough and correct response that demonstrates excellent understanding of the concepts and makes proper use of the mathematical skills expected in this class.</li>
+<li>M: meets expectations – this is a response that demonstrates solid understanding of the concepts but perhaps includes some small mathematical errors or minor conceptual mistakes.</li>
+<li>U: unsatisfactory / does not meet expectations – this is an answer that applies the concepts incorrectly, misunderstands the point of the question, does not complete the question, fails to follow instructions, and/or contains significant mathematical errors</li>
+<li>N: no submission – if you turn nothing in, you will receive an N.</li>
+</ul>
+<p>E and M are considered passing grades. To get an A or B in this class, you must achieve some Es (see the <a href="#gradingscheme">grading scheme</a>)</p>
+<p>U and N are considered failing grades.</p>
+</div>
+</div>
+</div>
+</section>
 <section id="grading-bundles" class="level3">
 <h3 class="anchored" data-anchor-id="grading-bundles">Grading bundles</h3>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Growth Mindset (10%)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Practice (30%)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">Labs and Lab Reports (25%)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-4" role="tab" aria-controls="tabset-2-4" aria-selected="false">Jigsaw (25%)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-5" role="tab" aria-controls="tabset-2-5" aria-selected="false">The Problem Project (10%)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-6" role="tab" aria-controls="tabset-2-6" aria-selected="false">Extra Credit: Cornell Notes</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">Reading Quizzes</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">Unit Problems</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-3" role="tab" aria-controls="tabset-3-3" aria-selected="false">Final Portfolio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-4" role="tab" aria-controls="tabset-3-4" aria-selected="false">Tests</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-5" role="tab" aria-controls="tabset-3-5" aria-selected="false">Presentations</a></li></ul>
 <div class="tab-content">
-<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
-<p>An important element of being a scientist is seeing opportunities to improve from mistakes and failures. This is emphasized in this class in multiple ways, through homework and test re-dos as well as through the goal-setting assignment, which spans the entire semester. Please note that some of the deadlines are more rigid in this bundle in order to make it a useful activity.</p>
-<ul>
-<li>Course pre-test (1 hr, graded on completion, not content)</li>
-<li>Course post-test (1 hr, graded on completion, not content)</li>
-<li>Math Assessment (with two chances to re-take)</li>
-<li>Growth Mindset Reflection</li>
-<li>SMART goal setting</li>
-<li>SMART goal mid-semester check-in</li>
-<li>SMART goal final reflection</li>
-</ul>
-<p>Given the purpose of these activities, we will not offer extensions beyond one week on the deadlines for the Growth Mindset bundle, except in case of a major medical or family emergency.</p>
+<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
+<p>In order to get the most out of class, you need to prepare. We will spend most of our time in class practicing problem solving, and before class you will need to read the appropriate sections of the book and respond to a quiz. Some readings are longer than others (and I’ve included the page count in the <a href="https://docs.google.com/spreadsheets/d/12bIFUWPCjQ1M-Uhela3GO7mmHF07_UZhAoRJAUmq4t4/edit?usp=sharing">course schedule</a> so you can be prepared), but every reading quiz is 10 questions.</p>
+<p>Given the purpose of the reading quizzes, I will not offer extensions, except in case of a major medical or family emergency that causes you to miss class.</p>
 </div>
-<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
-<p>Regular problem-solving is very important to developing confidence and skill in this content, so every week you will have a short weekly problem set as well as a self-reflection form.</p>
-<p>You will turn in the weekly problem set by scanning and uploading as a PDF to Moodle. These are due by midnight each Monday.</p>
-<p>The weekly problem set are self-graded. Here’s how that works:</p>
-<ul>
-<li>You get 50% of the points just for submitting the homework on time.</li>
-<li>When you submit your work, you will receive access to the solutions.</li>
-<li>The rest of the points come from comparing your work to the solutions and filling out a guided self-reflection form.</li>
-<li>These forms are not intended to make you do “extra work” – these are to help both you and your instructors understand where you need more practice and more support.</li>
-</ul>
+<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
+<p>Each unit (except for the unit on quantum weirdness) will have three problems similar to what we work on in class, but larger in scope and/or difficulty. These problems will be due shortly after the unit is over, and will be graded on completion. These problems create the foundation of</p>
+<p>You may work with classmates on these problems, but please be sure to give credit, which means naming each person you worked with and describing in a sentence or two the contribution they made.</p>
+<p>You may request extensions on the unit problems using the <a href="https://forms.gle/eFx7y7FoSdoukKGC6">extension form</a>.</p>
 </div>
-<div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
-<p>Lab activities will be integrated into many classes, and completing the labs is an important part of your learning in the course, so you may not use another student’s data for your homework problem or lab report. If you are unable to attend a class you may contact the instructor (in advance if possible) about finding a time to make up the lab work.</p>
-<p>We will do a number of labs, but just two of them will include a report. These reports are more than just a short write-up of what you did. These are an exercise in synthesizing the concepts you learned in class with the activities you did in the laboratory.</p>
-<p>The lab reports must include:</p>
-<ul>
-<li>a short introductory paragraph putting into context the activity</li>
-<li>a clear statement of the question you were trying to answer with the activity</li>
-<li>an explanation of the methods you used (what did you measure, how did you do it, how did you account for error, etc)</li>
-<li>a visualization of your results (using plots and figures)</li>
-<li>a discussion of what your results mean.</li>
-</ul>
-<p>These reports are graded using <a href="pdfs/PHY 117 Lab_Report_Grading_Rubric.pdf">this rubric</a>.</p>
-<p>Note: We don’t ever expect you to have perfect data, so use the discussion as an opportunity to explain the problems that arose and what you might have done differently if you’d had more time.</p>
-<p>You may revise and resubmit each lab report one time.</p>
+<div id="tabset-3-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-3-tab">
+<p>The idea for this final portfolio assignment is to demonstrate what you have learned in the course and to create something for which you can take ownership and feel proud. We will get a lot of practice with problem solving this semester, and this is a chance to go back and curate some of what you have done.</p>
+<p>The intended audience is a fellow student who had not previously seen the unit questions you have chosen, but is curious to know how to solve them. For example, you could imagine yourself at the beginning of the semester, or a classmate earlier this semester who was unsure how to approach a problem. Would that intended audience be able to understand your approach and your logic? Would they feel empowered to learn based on what you have created for them?</p>
+<p>The intended audience for this reflection portion of the assignment is your future self (perhaps a year from now). How could you help that future version of yourself understand what your learning process was like this semester?</p>
+<p>The assignment will involve redoing 5 problems (one from each unit) in a manner that clearly presents the logic and reasoning behind your answers. It will be useful to restate the problem in your own words, clearly identifying known and unknown quantities. You will then want to describe and demonstrate your approach to solving the problem. Once you arrive at an answer, it will also be helpful to reflect on the implications of that answer. This could include a consideration of how the answer depends on certain variables, or how the answer might be different for a slightly different situation.</p>
+<p>Each problem is graded on an <a href="#emun">E/M/U/N scale</a>, and an E and M are both considered passing grades.</p>
+<p>You may request an extension on the final portfolio using the <a href="https://forms.gle/eFx7y7FoSdoukKGC6">extension form</a>. Please note, however, that deadline cannot be extended beyond the end of final exam period.</p>
 </div>
-<div id="tabset-2-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-4-tab">
-<p>There will be three jigsaw activities during the semester, <strong>but you can drop your grade on one of them</strong>. In these activities, you will be given a challenging problem to solve in small groups. Together your group must write up a “lesson plan” that demonstrates how to approach and solve that problem. In the next class period, your group will teach that problem to the class, and then everyone individually must write up a second solution: you may pick any of the problems taught by another group.</p>
-<p>To get credit for these jigsaws, you must:</p>
-<ul>
-<li>participate in both days of activity</li>
-<li>submit your “lesson plan” write-up for the question you were assigned</li>
-<li>submit a second write-up for <strong>one</strong> of the problems you learned on the second day</li>
-</ul>
-<p>These jigsaws are graded using <a href="pdfs/PHY 117 Jigsaw_Grading_Rubric.pdf">this rubric</a>.</p>
-<p>You may revise and resubmit each jigsaw write-up one time.</p>
+<div id="tabset-3-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-4-tab">
+<p>There will be one midterm and one final, which will be given during the scheduled final exam time.</p>
+<p>These are graded on an <a href="#emun">E/M/U/N scale</a>,</p>
 </div>
-<div id="tabset-2-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-5-tab">
-<p>The student becomes the teacher… your final project for this class is to write a physics problem similar to the jigsaw problems. You must:</p>
+<div id="tabset-3-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-5-tab">
+<p>After every unit, you will have a chance to present one of the problems to the class in a group of up to three. You will be graded on the correctness and completeness of the solution,</p>
+<p>These are graded on an <a href="#emun">E/M/U/N scale</a>, and you may use your presentation score to replace one of the following:</p>
 <ul>
-<li>select at least one key idea from three of the five different <a href="coursecontent.qmd#keyideas">groups</a></li>
-<li>write a physics problem that tests understanding those three key ideas</li>
-<li>write up a detailed solution to that problem using the <a href="coursecontent.qmd#fourstepmethod">four-step problem solving method</a></li>
-<li>explain how your problem tests understanding for the three key ideas you selected</li>
+<li>your reading quiz score for the semester (an M or higher gives you full credit)</li>
+<li>one unit worth of problems (an M or higher gives you full credit for one unit’s problems)</li>
+<li>one final portfolio problem</li>
+<li>your midterm or final exam grade</li>
 </ul>
-<p>This will be graded using <a href="pdfs/PHY 117 Problem_Project_Grading_Rubric.pdf">this rubric</a>.</p>
-<p><strong>Because this is due on the last day of class, there will not be an opportunity to revise and resubmit this</strong></p>
+<p>I will always replace the grade item that most benefits you, and will never replace a better score with a worse one. The Presentations can only help you.</p>
+<p>Since the presentations are scheduled for specific days, you cannot request an extension.</p>
+<p>If you want to get a B or higher in the class, you have to at least try a presentation. Given the limitations on time, you may not be able to do more than one – I will prioritize students who have not yet done a presentation on the sign-up sheet.</p>
 </div>
-<div id="tabset-2-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-6-tab">
-<p>A good note-taking process can really help, not just with organization, but also with building the habit of reviewing critically the content of the past week. As extra credit, you can turn in weekly Cornell Notes.</p>
-<ul>
-<li>This will include one initial assignment to demonstrate how to do Cornell Notes</li>
-<li>You turn in a picture or scan of these in Moodle</li>
-<li>To learn more about Cornell Notes, there is a detailed walkthrough in the <a href="faq.qmd#cornellnotes">FAQ</a></li>
-<li>Cornell Notes assignments are graded with a <a href="pdfs/PHY 117 Cornell_Notes_Grading_Rubric.pdf">rubric</a></li>
-</ul>
-<p>For every four Cornell Notes assignments that you receive a “Satisfactory” or “Excellent” grade on (see rubric), we will round your grade up. So if you have a B and turn in four “Satisfactory” or “Excellent” Cornell Notes, your grade will become a B+. If you have eight “Satisfactory” or “Excellent” Cornell Notes, your grade will become an A-, etc.</p>
-<p><strong>The initial Cornell Notes assignment, while it contains three parts, is graded as one Cornell Notes, not three.</strong></p>
+</div>
+</div>
+</section>
+<section id="grading-boosts" class="level3">
+<h3 class="anchored" data-anchor-id="grading-boosts">Grading boosts</h3>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-4-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-1" role="tab" aria-controls="tabset-4-1" aria-selected="true">Effort Boost</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-2" role="tab" aria-controls="tabset-4-2" aria-selected="false">Problem-Solver Boost</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-3" role="tab" aria-controls="tabset-4-3" aria-selected="false">Growth Boost</a></li></ul>
+<div class="tab-content">
+<div id="tabset-4-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-4-1-tab">
+<p>If you earn 85% of the reading quiz points, turn in every unit problem, turn in a complete portfolio, attempt both exams, and do a presentation, you will gain a grade round up for effort, regardless of the outcome of your work.</p>
+</div>
+<div id="tabset-4-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-2-tab">
+<p>If you earn more than one E on your final portfolio, you will get a grade round-up</p>
+</div>
+<div id="tabset-4-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-3-tab">
+<p>If you demonstrate consistent improvement in your work across the semester, I reserve the right to round your grade up.</p>
 </div>
 </div>
 </div>
@@ -377,14 +401,8 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="deadlines" class="level2">
 <h2 class="anchored" data-anchor-id="deadlines">Deadlines and Extensions</h2>
-<p>If you need an extension, you may request one using <a href="https://forms.gle/qTLy66bkUNZ5ibTj7">this form</a>. We recognize that things come up and you may require some flexibility at some point in the semester. Please feel free to reach out to your instructor if you are struggling to meet a deadline. We want to support you and make sure you have the best possible chance for success in this class!</p>
-<p>In general, we are happy to be flexible. Please note, however, that some assignments will have harder deadlines. These assignments include the first Cornell Notes assignment, the math assessment, and all the Growth Mindset assignments. The reason for these hard deadlines is due to the nature of the assignments – for example, it is not helpful for you to put off taking the math assessment and discover in the last week of class that you really should review trig.</p>
-<p>You can see which assignments have deadline restrictions by looking at the <a href="https://docs.google.com/spreadsheets/d/1o43gE7XIsHia5bAcqoeek3scpJ-EyI1tOqB7SRFVZX0/edit?usp=sharing">grading template</a>.</p>
-</section>
-<section id="phy115" class="level2">
-<h2 class="anchored" data-anchor-id="phy115">PHY 115</h2>
-<p>There is an additional 1-credit course that you can take alongside PHY 117. This is called PHY 115 Quantitative Approaches to Physics.</p>
-<p>This course is designed to give you extra practice connecting the math skills to the scientific concepts through individual and group work in a small class setting. Students are recommended for this course on the basis of the math assessment you take in the first week, but if you feel you would benefit from this course, please speak with your instructor. Instructor permission is needed to enroll in PHY 115.</p>
+<p>If you need an extension, you may request one using <a href="https://forms.gle/eFx7y7FoSdoukKGC6">this form</a>. I recognize that things come up and you may require flexibility at some point in the semester. Please feel free to reach out to me directly if you are struggling to meet a deadline. I want to support you and make sure you have the best possible chance for success in this class, and the only way I can help is if you communicate with me.</p>
+<p>In general, I am happy to be flexible. Please note, however, that some assignments will have stricter deadlines. These assignments include the reading quizzes and the presentation, and the nature of the deadlines is discussed in their descriptions above.</p>
 
 
 </section>
@@ -469,10 +487,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -482,8 +522,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -495,7 +544,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -539,6 +711,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -564,6 +737,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -621,23 +820,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-      }
-    }
 });
 </script>
 </div> <!-- /content -->
+
 
 
 

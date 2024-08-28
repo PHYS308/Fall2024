@@ -30,9 +30,10 @@ website:
        - FAQ.qmd
 
    
+   
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: bates_yeti.scss
     toc: true
+
 

@@ -10,7 +10,7 @@ format:
     colorlinks: true
     self-contained: true
 editor: source
-jupyter: python3
+
 ---
 ## When and where is class?
 

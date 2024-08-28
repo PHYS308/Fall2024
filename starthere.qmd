@@ -3,19 +3,26 @@ title: "Start Here"
 format: 
   html:
     link-external-newwindow: true
-editor: visual
-jupyter: python3
+editor: source
 ---
 
 Welcome to PHYS 308, Fall 2024!
 
 Not sure where to start? I've put together a guide.
 
-This website contains the syllabus and an FAQ. If you are looking for handouts, in-class activities, specific assignments, or class slides, those will all be in the course page in Lyceum. If you are enrolled in the class but do not have access to Lyceum, please let me know immediately so I can add you.
+This website contains the syllabus and an FAQ. If you are looking for handouts, in-class activities, specific assignments, or class notes, those will all be in the course page in Lyceum. If you are enrolled in the class but do not have access to Lyceum, please let me know immediately so I can add you.
+
+# Get the textbook
+
+If you have not yet, please make sure you get the textbook for this class, which is "Quantum Mechanics: A Paradigms Approach, 1st edition" by David McIntyre (Cambridge University Press). The library should have copies available, but you can also purchase it at the Bates bookstore.
+
+![](images/QMMcIntyre.jpg){width=200}
+
+There is only one edition of this book, but there is a cheaper printing from 2022 (it will still say "first edition" but it will be paperback).
 
 # Fill out the welcome form
 
-The first thing you should do for this class is fill out the [welcome form](https://forms.gle/EAgPWkbkFB3yXrku8). This form is quick and should be completed by the end of the first week of class. It will help me to support you in this class and will only take a few minutes of your time!
+The first thing you should do for this class is fill out the [welcome form](https://forms.gle/AAxE3uTvX4NrrxKw9). This form is quick and should be completed by the end of the first week of class. It will help me to support you in this class and will only take a few minutes of your time!
 
 # Read the syllabus
 
@@ -23,7 +30,7 @@ I've tried to make the syllabus relatively short, sweet, and well-organized. It'
 
 # Keep an eye on the schedule
 
-The schedule for this class is in a [google doc]() so that it can be updated as needed. Sometimes, things happen. Those things might be snow days, illnesses, travel, or just needing more time than anticipated on a topic. If needed, I may move due dates or adjust readings or topics in the schedule. I will talk about these changes in the classroom, but if you ever need to check a due date, the schedule will have the most up-to-date information.
+The schedule for this class is in a [google doc](https://docs.google.com/spreadsheets/d/12bIFUWPCjQ1M-Uhela3GO7mmHF07_UZhAoRJAUmq4t4/edit?usp=sharing) so that it can be updated as needed. Sometimes, things happen. Those things might be snow days, illnesses, travel, or just needing more time than anticipated on a topic. If needed, I may move due dates or adjust readings or topics in the schedule. I will talk about these changes in the classroom, but if you ever need to check a due date, the schedule will have the most up-to-date information.
 
 # Still have questions?
 
