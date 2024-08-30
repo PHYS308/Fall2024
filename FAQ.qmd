@@ -21,6 +21,8 @@ editor: source
 
 The textbook for this class is "Quantum Mechanics: A Paradigms Approach, 1st edition" by David McIntyre (Cambridge University Press). The library should have copies available, but you can also purchase it at the Bates bookstore.
 
+To find the library copies, go to [librarysearch.bates.edu](librarysearch.bates.edu) and search for the course number or my name. Write down the book's call number and ask for it at the library.
+
 ![](images/QMMcIntyre.jpg){width=200}
 
 ## When are your office hours? {#officehours}

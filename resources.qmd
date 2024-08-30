@@ -14,9 +14,14 @@ editor: source
 
 ## Math and Physics Resources {#contentresources}
 
-Khan Academy Calc, Linear Alg, Diff Eq, Approx
+[Videos: Khan Academy's unit on linear algebra](https://www.khanacademy.org/math/linear-algebra)
 
-Books relevant to the class
+[Videos: Khan Academy's unit on differential equations](https://www.khanacademy.org/math/differential-equations)
+
+[Videos: Khan Academy's unit on multivariable calc](https://www.khanacademy.org/math/multivariable-calculus)
+
+[Videos: Khan Academy's unit on probabilities](https://www.khanacademy.org/math/statistics-probability/probability-library)
+
 
 ## Study and Professional Skills Resources {#profdevresources}
 
@@ -26,9 +31,11 @@ Books relevant to the class
 
 [Article: how to take notes](pdfs/HowToTakeNotes.pdf)
 
-Urgent/Important Matrices
+[Article: the Urgent/Important Matrix for prioritization](https://www.mindtools.com/al1e0k5/eisenhowers-urgentimportant-principle)
 
-Time Poverty podcast?
+[Video: the Urgent/Important Matrix for prioritization](https://www.youtube.com/watch?v=jxiCV0vwVT8)
+
+
 
 ## Mental Health and Crisis Resources {#mentalhealthresources}
 

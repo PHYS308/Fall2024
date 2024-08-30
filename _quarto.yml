@@ -28,6 +28,13 @@ website:
        - starthere.qmd
        - syllabus.qmd
        - FAQ.qmd
+       
+    - id: resources
+      title: "Resources"
+      style: "docked"
+      background: light
+      contents:
+       - resources.qmd
 
    
    
