@@ -15,7 +15,7 @@ editor: source
 ## When and where is class?
 
 -   When: Monday, Wednesday, and Friday, 1:10PM-2:30PM
--   Where: Carnegie 204
+-   Where: Carnegie 225
 
 ## Where do I get my textbook?
 

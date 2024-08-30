@@ -71,7 +71,7 @@
     "href": "FAQ.html",
     "title": "FAQ",
     "section": "",
-    "text": "When: Monday, Wednesday, and Friday, 1:10PM-2:30PM\nWhere: Carnegie 204",
+    "text": "When: Monday, Wednesday, and Friday, 1:10PM-2:30PM\nWhere: Carnegie 225",
     "crumbs": [
       "FAQ"
     ]
@@ -81,7 +81,7 @@
     "href": "FAQ.html#when-and-where-is-class",
     "title": "FAQ",
     "section": "",
-    "text": "When: Monday, Wednesday, and Friday, 1:10PM-2:30PM\nWhere: Carnegie 204",
+    "text": "When: Monday, Wednesday, and Friday, 1:10PM-2:30PM\nWhere: Carnegie 225",
     "crumbs": [
       "FAQ"
     ]
@@ -211,7 +211,7 @@
     "href": "index.html",
     "title": "PHY 308 Fall 2024",
     "section": "",
-    "text": "Welcome to the Fall 2024 class of PHYS 308!"
+    "text": "Welcome to the Fall 2024 class of PHYS 308!\nIf this is your first time on the course website, I recommend you\nStart Here"
   },
   {
     "objectID": "index.html#course-description",
@@ -243,5 +243,40 @@
     "crumbs": [
       "FAQ"
     ]
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Khan Academy Calc, Linear Alg, Diff Eq, Approx\nBooks relevant to the class"
+  },
+  {
+    "objectID": "resources.html#profdevresources",
+    "href": "resources.html#profdevresources",
+    "title": "Resources",
+    "section": "Study and Professional Skills Resources",
+    "text": "Study and Professional Skills Resources\nWebsite: SASC General Study Strategies\nVideo: how to get the most out of studying\nArticle: how to take notes\nUrgent/Important Matrices\nTime Poverty podcast?"
+  },
+  {
+    "objectID": "resources.html#mentalhealthresources",
+    "href": "resources.html#mentalhealthresources",
+    "title": "Resources",
+    "section": "Mental Health and Crisis Resources",
+    "text": "Mental Health and Crisis Resources\nSelf-care flow chart\nTitle IX and CRA\nCounseling"
+  },
+  {
+    "objectID": "resources.html#contentresources",
+    "href": "resources.html#contentresources",
+    "title": "Resources",
+    "section": "",
+    "text": "Khan Academy Calc, Linear Alg, Diff Eq, Approx\nBooks relevant to the class"
+  },
+  {
+    "objectID": "resources.html#career-and-life-resources",
+    "href": "resources.html#career-and-life-resources",
+    "title": "Resources",
+    "section": "Career and Life Resources",
+    "text": "Career and Life Resources"
   }
 ]

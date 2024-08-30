@@ -1,0 +1,40 @@
+---
+title: "Resources"
+format: 
+  html:
+    toc: true
+    link-external-newwindow: true
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+    self-contained: true
+editor: source
+---
+
+## Math and Physics Resources {#contentresources}
+
+Khan Academy Calc, Linear Alg, Diff Eq, Approx
+
+Books relevant to the class
+
+## Study and Professional Skills Resources {#profdevresources}
+
+[Website: SASC General Study Strategies](https://www.bates.edu/student-academic-support-center/general-study-resources-and-strategies/)
+
+[Video: how to get the most out of studying](https://www.samford.edu/departments/academic-success-center/how-to-study)
+
+[Article: how to take notes](pdfs/HowToTakeNotes.pdf)
+
+Urgent/Important Matrices
+
+Time Poverty podcast?
+
+## Mental Health and Crisis Resources {#mentalhealthresources}
+
+Self-care flow chart
+
+Title IX and CRA
+
+Counseling
+
