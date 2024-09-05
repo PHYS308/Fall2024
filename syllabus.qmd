@@ -43,18 +43,7 @@ editor: source
 
 Assignments fall into "bundles," which contribute to your grade in specific ways. Your performance on each bundle determines your rough letter grade (full letters). Beyond that, you can achieve grade boosts, which round your grade up, e.g. from a B to a B+, or a B+ to an A-.
 
-You can learn more about each bundle below:
-
-[Reading Quizzes](#reading)
-
-[Unit Problems](#practice)
-
-[Final Portfolio](#portfolio)
-
-[Tests](#tests)
-
-[Presentations](#presentations)
-
+You can learn more about each category [below](#categories).
 
 ### Grading Scheme {#gradingscheme}
 
@@ -98,7 +87,7 @@ U and N are considered failing grades.
 :::
 
 
-### Grading bundles
+### Grading categories {#categories}
 
 ::: panel-tabset
 #### Reading Quizzes {#reading}
